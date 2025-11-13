@@ -1,10 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import ReactDOM from 'react-dom/client'; // ReactDOM: React 컴포넌트를 실제 DOM에 렌더링할 때 사용
+
+import App from './App'; // App.js 파일 import 
+import Header from "./component/Header" 
+import Footer from "./component/Footer" 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App />
+    <div class="main_page">
+        <Header/>
+        <App /> 
+        <Footer/>
+    </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
