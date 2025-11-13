@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client'; // ReactDOM: React 컴포넌트를 실제 DOM에 렌더링할 때 사용
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
