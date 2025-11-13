@@ -1,0 +1,6 @@
+/* 1. 최상위 컨테이너 */ 
+
+.list-page-container{
+    background: var(--Black, #121212);
+    color: #FFFFFF;
+}
